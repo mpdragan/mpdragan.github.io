@@ -1,0 +1,22 @@
+body{
+	background-color:#6C8AD5;
+}
+header .logo{
+	border:2px;
+	background-color:#502982;
+	padding:10px;
+}
+
+h1{
+	text-align:center;
+}
+
+footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	background-color:gray;
+	text-align:center;
+	padding:20px;
+	width:100%;
+}

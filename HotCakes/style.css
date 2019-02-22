@@ -1,0 +1,117 @@
+        body{
+		  margin:0;
+		  font-family:arial, sans-serif;
+		  margin-top:68px;
+		}
+		
+		.container{
+			width:960px;
+			margin:0 auto;
+		}
+	    h1{
+        	color: gray;
+			font-size:86px;
+        }
+		  h2{
+        	color: gray;
+			font-size:36px;
+        }
+        .header{
+            height:68px;
+			position:fixed;
+			width:100%;
+			top:0;
+			background-color:rgba(255,255,255,0.5);
+        }
+		
+		.logo{
+		  margin-top: 12px;
+		  float:left;
+		}
+		
+		.menu{
+			float:right;
+			list-style:none;
+			margin-top:20px;
+		}
+		
+		.menu .item{
+			float:left;
+			margin-right:12px;
+			position:relative;
+			top: 5px;
+		}
+		
+		.menu .item > a{
+			text-decoration: none;
+			color:#dd7322;
+			font-size:24px;
+		}
+		
+		.menu .item:hover .submenu{
+			display:block;
+		}
+		
+		.submenu{
+			display:none;
+			position:absolute;
+			top:30px;
+			left:0px;
+			list-style:none;
+			padding:20px;
+			background-color:#fafafa;
+		}
+		
+		.submenu .subitem {
+			margin-top:10px;
+		}
+		
+		.submenu .subitem > a{
+			text-decoration: none;
+		}
+		
+		.clear{
+			clear:both;
+		}
+		
+		.big-image{
+		   padding:60px 0;
+		   text-align:center;
+		   background: url("bg.jpg");
+		   color: white;
+		}
+		
+		.content{
+			text-align:center;
+			padding:40px 0;
+		}
+		
+		.three{
+			width:280px;
+			padding:20px;
+			float:left;
+		}
+		
+		.button a{
+			padding:12px 44px;
+			background-color:#dd7322;
+			font-size:26px;
+			color: white;
+			text-decoration:none;
+			
+		}
+		
+		.button a:hover{
+		   background-color:#f28425;
+		}
+		
+	    .button a:active{
+		   border-bottom:5px solid red;
+		}
+		
+        .footer{
+		    border-top: 1px solid black;
+        	background-color: gray;
+			padding: 20px;
+			text-align:center;
+        }
