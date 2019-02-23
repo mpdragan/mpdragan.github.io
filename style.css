@@ -7,16 +7,34 @@ header .logo{
 	padding:10px;
 }
 
+.navbar {
+	float:right;
+	/*position:fixed;*/
+}
+
+.navbar li{
+	float:left;
+	padding:20px;
+	list-style:none;
+	background-color:#65E080;
+	margin:5px;
+	font-size:24px;
+}
+
+.navbar ul a{
+	text-decoration: none;
+}
+
 h1{
 	text-align:center;
 }
 
 footer{
-	position:fixed;
+	/*position:fixed;*/
 	left:0;
 	bottom:0;
 	background-color:gray;
 	text-align:center;
-	padding:20px;
+	padding:30px;
 	width:100%;
 }
