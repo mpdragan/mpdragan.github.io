@@ -1,10 +1,14 @@
 body{
 	background-color:#6C8AD5;
 }
-header .logo{
-	border:2px;
+header .logo a{
+	border:2px solid #502900;
 	background-color:#502982;
 	padding:10px;
+	text-decoration: none;
+	list-style:none;
+	color:white;
+	font-size:24px;
 }
 
 .navbar {
@@ -23,10 +27,20 @@ header .logo{
 
 .navbar ul a{
 	text-decoration: none;
+	
+}
+
+.clear{
+	clear:both;
 }
 
 h1{
 	text-align:center;
+	color:white;
+}
+h2{
+	text-align:center;
+	color:white;
 }
 
 footer{
