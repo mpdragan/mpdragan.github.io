@@ -1,6 +1,12 @@
 body{
 	background-color:#6C8AD5;
 }
+
+.wrap{
+	width:1170px;
+	margin:0 auto;
+}
+
 header .logo a{
 	border:2px solid #502900;
 	background-color:#502982;
@@ -16,7 +22,7 @@ header .logo a{
 	/*position:fixed;*/
 }
 
-.navbar li{
+.navbar .navbr{
 	float:left;
 	padding:20px;
 	list-style:none;
