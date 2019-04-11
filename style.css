@@ -15,6 +15,7 @@ header .logo a{
 	list-style:none;
 	color:white;
 	font-size:24px;
+	float:left;
 }
 
 .navbar {
@@ -36,6 +37,11 @@ header .logo a{
 	
 }
 
+.navbr ul li a{
+	text-decoration: none;
+	
+}
+
 .clear{
 	clear:both;
 }
@@ -47,6 +53,20 @@ h1{
 h2{
 	text-align:center;
 	color:white;
+}
+
+.portfolio{
+	text-align:center;
+}
+
+.verstka{
+	float:left;
+	margin: 0 10px;
+}
+
+.design{
+	width:400px;
+	float:left;
 }
 
 footer{
