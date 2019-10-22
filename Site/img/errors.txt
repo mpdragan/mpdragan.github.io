@@ -1,0 +1,1 @@
+[2019-10-12 23:29:04] layer "avtoportret.png": Duplicate path: avtoportret.png
