@@ -1,0 +1,179 @@
+body{
+	background-color:#6C8AD5;
+	font-family: 'Arial',Sans-serif;
+	font-size: 15px;
+	padding:0px;
+	margin:0px;
+	line-height:1.5em;
+	letter-spacing:0.1em;
+}
+
+.container{
+	width:1170px;
+	margin:0 auto;
+}
+
+header{
+	background:url(img/header_bg.png) no-repeat;
+}
+
+.logo{
+	padding-top: 30px;
+	text-align:center;
+}
+
+.logo a{
+	text-decoration: none;
+	list-style:none;
+	color:red;
+	font-size:24px;
+	text-align:center;
+}
+
+nav{
+	background: #c85414;
+	height: 80px;
+}
+
+.topmenu{
+	background: #c85414;
+}
+
+.menu{
+	background: #c85414;
+	text-align:center;
+	float:left;
+	text-decoration: none;
+	list-style:none;
+	margin:20px;
+	padding: 10px;
+	font-size:18px;
+	/*position:fixed;*/
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+	list-style:none;
+}
+
+.menu a:hover{
+	padding: 5px;
+	background: #5f2725;
+	border-radius: 5px;
+}
+
+.topmenu li:hover .submenu {
+	display: block;
+}
+
+.submenu{
+	display: none;
+}
+
+h1{
+	text-align:center;
+	color:white;
+	margin-top: 150px;
+}
+
+h2{
+	text-align:center;
+	color:white;
+	height: 50px;
+	padding-top: 50px;
+}
+
+.button{
+	margin: 50px;
+	text-align: center;
+	height: 100px;
+}
+
+.button a{
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+	background: #501914;
+	text-shadow: 10px;
+	color:white;
+	font-size:24px;
+	margin: 50px;
+}
+
+.clear{
+	clear:both;
+}
+
+#portfolio{
+	background: #c6d2e4;
+}
+
+.portfolio__button {
+	margin: 50px;
+	text-align: center;
+}
+
+.portfolio__button a {
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+	border:1px solid black;
+	border-radius: 10px;
+	font-size:18px;
+	margin: 50px;
+}
+
+.portfolio__button_last{
+	height: 100px;
+	margin: 50px;
+	text-align: center;
+}
+
+.portfolio__button_last a {
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+	border:1px solid black;
+	border-radius: 10px;
+	font-size:18px;
+	margin: 50px;
+}
+
+#services{
+	background:url(img/services_bg.png) no-repeat;
+}
+
+.services__1{
+	font-size:24px;
+	margin-left: 200px;
+}
+
+.services__2{
+	font-size:24px;
+	margin-left: 500px;
+}
+
+.services__3{
+	font-size:24px;
+	margin-left: 700px;
+	height: 100px;
+}
+
+#hobby{
+	background:url(img/hobby_bg.png) no-repeat;
+}
+
+#contacts{
+	background:#ded5c4
+}
+
+footer{
+	/*position:fixed;*/
+	left:0;
+	bottom:0;
+	background-color:gray;
+	text-align:center;
+	padding:30px;
+	width:100%;
+}
