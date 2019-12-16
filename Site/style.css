@@ -1,5 +1,4 @@
-body{
-	background-color:#6C8AD5;
+body,h3{
 	font-family: 'Arial',Sans-serif;
 	font-size: 15px;
 	padding:0px;
@@ -78,6 +77,7 @@ h1{
 }
 
 h2{
+	margin: 0px;
 	text-align:center;
 	color:white;
 	height: 50px;
@@ -85,7 +85,7 @@ h2{
 }
 
 .button{
-	margin: 50px;
+	margin-top: 50px;
 	text-align: center;
 	height: 100px;
 }
@@ -101,8 +101,17 @@ h2{
 	margin: 50px;
 }
 
+.button a:hover{
+    background-color: red;
+    border:2px solid black;
+}
+
 .clear{
 	clear:both;
+}
+
+#work{
+	background-color: red;
 }
 
 #portfolio{
@@ -126,7 +135,7 @@ h2{
 
 .portfolio__button_last{
 	height: 100px;
-	margin: 50px;
+	margin-top: 50px;
 	text-align: center;
 }
 
@@ -137,7 +146,7 @@ h2{
 	border:1px solid black;
 	border-radius: 10px;
 	font-size:18px;
-	margin: 50px;
+	margin-top: 50px;
 }
 
 #services{
@@ -165,7 +174,27 @@ h2{
 }
 
 #contacts{
-	background:#ded5c4
+	background:#ded5c4;
+}
+
+.input{
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.textarea{
+	width:200px;
+	height: 200px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.act{
+   width: 200px;
+   margin: 5px;
+   padding: 10px;
+   background-color: red;
 }
 
 footer{
