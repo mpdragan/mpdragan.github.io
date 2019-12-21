@@ -82,6 +82,37 @@ h2{
    background-color: red;
 }
 
+.catalog__img-text{
+	/*width: 100%;*/
+	width: 500px;
+    display: block;
+    overflow:hidden;
+    cursor:pointer;
+    float:left;
+    position: relative;
+    margin-right: 5px;
+}
+
+.catalog__img-text:hover .catalog__img img{
+	/*width: 100%;*/
+	background-color: black;
+	width: 500px;
+	opacity: 0.5;
+}
+
+.catalog__text{
+	position:absolute;
+	text-align: center;
+	top: 100px;
+	left:110px;
+	color:red;
+	opacity: 0;
+}
+
+.catalog__img-text:hover .catalog__text{
+	opacity: 1;
+}
+
 .catalog__button{
 	height: 100px;
 	margin-top: 50px;
@@ -96,6 +127,17 @@ h2{
 	border-radius: 10px;
 	font-size:18px;
 	margin-top: 50px;
+}
+
+#more{display:none;}
+
+#btn{
+	padding: 10px;
+	margin: 50px;
+}
+
+.btn-center{
+	text-align: center;
 }
 
 #sale{
