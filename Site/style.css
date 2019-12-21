@@ -32,6 +32,8 @@ header{
 nav{
 	background: #c85414;
 	height: 80px;
+/*	position:fixed;
+	top:100px;*/
 }
 
 .topmenu{
